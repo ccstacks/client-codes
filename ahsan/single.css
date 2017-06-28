@@ -1,0 +1,180 @@
+#main-container {
+	float: left;
+	width: 770px;
+}
+
+
+/**
+ * Post
+ *
+ */
+
+.separator a {
+	margin: 0 !important;
+}
+
+.post-title.p-name.entry-title {
+	font: normal normal 700 40px/47px 'Roboto', Arial, Helvetica, sans-serif;
+	margin: 15px 0 10px;
+}
+
+.s-pos {
+	overflow: hidden;
+}
+
+.e-content.entry-content {
+	font: normal normal 400 16px/27px 'Roboto', Arial, Helvetica, sans-serif;
+	margin: 25px 30px 0 0;
+	float: left;
+	width: 670px;
+	font-weight: 300;
+}
+
+.post-header {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	color: #757575;
+}
+
+.post-header a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: 700
+}
+
+.featured-image {
+	margin: 20px 0 0;
+}
+
+
+/**
+ * Share buttons
+ *
+ */
+
+.share-buttons {
+	float: left;
+	width: 70px;
+	overflow: hidden;
+	min-height: 1px;
+}
+
+.share-buttons .btn {
+	padding: 0 17px;
+}
+
+.share-buttons a {
+	background: url(https://4.bp.blogspot.com/--_FelRvys20/WVL0nutrQnI/AAAAAAAAALk/jjUSy234U_QREjoiwEmEyqARkEnRvgJvwCLcBGAs/s1600/icons.png
+);
+	display: block;
+	height: 17px;
+	width: 17px;
+}
+
+.share-buttons .fb {
+	background-position: 0px 0px;
+}
+
+.share-buttons .tw {
+	background-position: 0 -24px;
+}
+
+.share-buttons .gp {
+	background-position: 0 -28px;
+	background-size: 41px;
+}
+
+.share-buttons .pi {
+	background-position: 0 38px;
+}
+
+.share-buttons .li {
+	background-position: 0 17px;
+}
+
+
+/**
+ * Sidebar
+ *
+ */
+
+#sidebar-container {
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+
+#sidebar .widget {
+	margin: 0 0 25px;
+}
+
+#sidebar .widget h2 {
+	font-size: 17px;
+	text-transform: uppercase;
+	color: inherit;
+	margin: 0 0 15px;
+}
+
+#FollowByEmail1 {
+	padding: 30px;
+	background: #ededed;
+}
+
+#FollowByEmail1 .title {
+	margin: 0 0 15px;
+	font: 700 18px 'Roboto', Arial, Helvetica, sans-serif;
+	color: #616161;
+}
+
+.follow-by-email-address {
+	border: none;
+	background: #fafafa;
+	padding: 10px;
+}
+
+.follow-by-email-submit {
+	border: none;
+	color: #fff;
+	background: #689F38;
+	padding: 10px;
+}
+
+.item-thumbnail {
+	float: left;
+	margin-right: 15px;
+}
+
+.item-title a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 12px;
+}
+
+.popular-posts li {
+	margin: 0 0 15px;
+	overflow: hidden;
+}
+
+@media (max-width: 1100px) {
+	#main-container {
+		width: 100%;
+		float: none;
+	}
+	.follow-by-email-address {
+		width: 100%;
+	}
+	#sidebar-container {
+		margin: 30px 0 0;
+		width: 100%;
+	}
+	.e-content.entry-content {
+		width: 655px;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 915px) {
+	.e-content.entry-content {
+		width: 266px;
+	}
+}
