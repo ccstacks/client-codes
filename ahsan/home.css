@@ -1,0 +1,75 @@
+#PopularPosts1 {
+	overflow: hidden;
+	margin: 0 0 45px;
+}
+[class^=pp-] {
+	float: left;
+    overflow: hidden;
+}
+[class^=pp-] .wrap {
+	position: relative
+}
+.pp-big,
+.pp-med {
+    width: 50%
+}
+.pp-big .wrap {
+	height: 560px;
+	margin: 0 5px 0 0;
+}
+.pp-med .wrap, .pp-sm .wrap {
+	height: 275px;
+}
+.pp-sm {
+	width: 25%;
+}
+
+.pp-med .wrap {
+	margin: 0 0 0 5px;
+}
+.pp-sm .wrap {
+	margin: 10px 0 0 5px;
+}
+.pp-sm:last-child .wrap {
+	margin: 10px 0 0 10px;
+}
+
+.item-bottom {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	right: 25px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 25px;
+}
+.pp-big .item-title {
+	font-size: 27px;
+	line-height: 33px;
+	margin: 0 0 10px
+}
+.item-title a {
+	text-decoration: none;
+	color: #fff;
+}
+.wrap > a {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.34));
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	z-index: 0;
+	transition-duration: .5s;
+}
+.item-snippet {
+	color: #fff;
+	font-size: 15px;
+}
+.pp-med .item-title {
+	font-size: 22px;
+	line-height: 29px;
+}
+.pp-sm .item-title {
+	font-size: 17px;
+	line-height: 24px;
+}
