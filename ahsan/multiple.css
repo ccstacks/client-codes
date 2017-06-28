@@ -67,9 +67,7 @@
 }
 
 .post-thumbnail::before {
-	content: &quot;
-	&quot;
-	;
+	content: "";
 	position: absolute;
 	background: linear-gradient(to right, #f6f7f9 0, #eaeaea 60%, #f6f7f9 100%);
 	animation: 1s ease-in-out 0s infinite loading
